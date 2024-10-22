@@ -610,6 +610,7 @@ class CoexistingPhasesFinder:
 
             steps += steps_inner
             self._revive_count_left -= revive_count
+            
 
             if progress:
                 pbar1.n = bar_val_func(max_abs_incomp)
